@@ -1,0 +1,149 @@
+.login {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 156px;
+  padding: 0 70px;
+  &__title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #344054;
+  }
+  &__desc {
+    margin-top: 8px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+    margin-bottom: 36px;
+  }
+  .form {
+    &__title {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      color: #344054;
+      margin-bottom: 8px;
+      margin-top: 20px;
+    }
+    &__email {
+      width: 100%;
+      max-width: 360px;
+      border: 1px solid #d0d5dd;
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #667085;
+    }
+    &__password {
+      width: 100%;
+      max-width: 360px;
+      border: 1px solid #d0d5dd;
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #667085;
+      margin-bottom: 20px;
+    }
+  }
+  &__help {
+    display: flex;
+    gap: 140px;
+    margin-bottom: 32px;
+  }
+  &__check {
+    display: flex;
+    gap: 8px;
+  }
+  .check__box {
+    input {
+      border: 1px solid #d0d5dd;
+      border-radius: 4px;
+    }
+  }
+  .check__title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+  }
+  &__forgot {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5429ff;
+  }
+  &__auth {
+    display: flex;
+    flex-direction: column;
+  }
+  .autn__signIn {
+    max-width: 390px;
+    width: 100%;
+    background: #5429ff;
+    border-radius: 8px;
+    box-shadow: none;
+    margin-bottom: 16px;
+    span {
+      display: flex;
+      width: 52px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #ffffff;
+      align-items: center;
+      text-align: center;
+      padding: 12px 154px;
+    }
+  }
+  &__google {
+    max-width: 390px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  &__singUp {
+    max-width: 390px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #344054;
+    span {
+        color: #5429FF;
+    }
+  }
+}
